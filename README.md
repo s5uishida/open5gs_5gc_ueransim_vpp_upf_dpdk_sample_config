@@ -1,0 +1,1 @@
+# open5gs_5gc_ueransim_vpp_upf_dpdk_sample_config

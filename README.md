@@ -89,7 +89,7 @@ These devices will be enabled and set IP addresses in the `init.conf` file of VP
 | | enp0s9 | NAT Network | 192.168.14.111/24 | N4 | -- |
 | VM-UP | enp0s3 | NAT(default) | 10.0.2.15/24 | (VM default NW) | -- |
 | | enp0s8 | Bridged Adapter | 192.168.0.151/24 | (Mgmt NW) | -- |
-| | enp0s9 | NAT Network | 192.168.13.151/24 | N3 | x |
+| | enp0s9 | NAT Network | 192.168.14.151/24 | N3(***1**) | x |
 | | enp0s10 | NAT Network | 192.168.14.151/24 | N4 | x |
 | | enp0s16 | NAT Network | 192.168.16.151/24 | N6 | x |
 | VM-DN | enp0s3 | NAT(default) | 10.0.2.15/24 | (VM default NW) | -- |

@@ -1,5 +1,5 @@
 # Open5GS 5GC & UERANSIM UE / RAN Sample Configuration - VPP-UPF with DPDK
-This describes a simple configuration for working Open5GS and VPP-UPF with DPDK.
+This describes a simple configuration for working Open5GS 5GC and VPP-UPF with DPDK.
 In particular, see [here](https://github.com/s5uishida/install_vpp_upf_dpdk) for VPP-UPF with DPDK configuration.
 
 ---
@@ -54,7 +54,7 @@ In particular, see [here](https://github.com/s5uishida/install_vpp_upf_dpdk) for
 
 <h2 id="overview">Overview of Open5GS 5GC Simulation Mobile Network</h2>
 
-This describes a simple configuration of C-Plane, VPP-UPF and Data Network Gateway for Open5GS.
+This describes a simple configuration of C-Plane, VPP-UPF and Data Network Gateway for Open5GS 5GC.
 **Note that this configuration is implemented with Virtualbox VMs.**
 
 The following minimum configuration was set as a condition.
@@ -644,7 +644,7 @@ You could now connect to the DN and send any packets on the network using VPP-UP
 
 ---
 
-Now you could work Open5GS with VPP-UPF.
+Now you could work Open5GS 5GC with VPP-UPF.
 I would like to thank the excellent developers and all the contributors of Open5GS, OpenAir CN 5G for UPF, UPG-VPP and DPDK.
 
 <h2 id="changelog">Changelog (summary)</h2>

@@ -648,7 +648,7 @@ listening on enp0s9, link-type EN10MB (Ethernet), snapshot length 262144 bytes
 
 You could specify the IP address assigned to the TUNnel interface to run almost any applications as in the following example using `nr-binder` tool.
 
-- Run `curl google.com` on VM3 (UE)
+- `curl google.com` on VM3 (UE)
 ```
 # sh nr-binder 10.45.0.2 curl google.com
 <HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">

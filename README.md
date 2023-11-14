@@ -678,7 +678,7 @@ You could now connect to the DN and send any packets on the network using VPP-UP
 ---
 
 Now you could work Open5GS 5GC with VPP-UPF.
-I would like to thank the excellent developers and all the contributors of Open5GS, OpenAir CN 5G for UPF, UPG-VPP, DPDK and UERANSIM.
+I would like to thank the excellent developers and all the contributors of Open5GS, OpenAir CN 5G for UPF, UPG-VPP, VPP, DPDK and UERANSIM.
 
 <a id="changelog"></a>
 

@@ -175,7 +175,7 @@ For the sake of simplicity, I used only DNN this time. Please refer to [here](ht
    security:
 ```
 - `open5gs/install/etc/open5gs/nrf.yaml`
-```
+```diff
 --- nrf.yaml.orig       2024-03-24 15:36:48.000000000 +0900
 +++ nrf.yaml    2024-03-24 20:58:02.421044544 +0900
 @@ -10,8 +10,8 @@

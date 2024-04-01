@@ -708,7 +708,7 @@ I would like to thank the excellent developers and all the contributors of Open5
 
 ## Changelog (summary)
 
-- [2024.03.31] Removed `gtpc` section in `smf.yaml`.
+- [2024.03.31] [This commit](https://github.com/open5gs/open5gs/commit/e8a3b76af395a9986234b7d339a7a96dc5bb537f) fixed the issue where SMF crashes without `gtpc` section in `smf.yaml`. So deleted the `gtpc` section in `smf.yaml` for 5G use.
 - [2024.03.24] Updated to UPG-VPP v1.12.0.
 - [2023.11.10] Changed VPP-UPF from [oai-cn5g-upf-vpp](https://gitlab.eurecom.fr/oai/cn5g/oai-cn5g-upf-vpp) to its base [travelping/upg-vpp](https://github.com/travelping/upg-vpp).
 - [2023.06.18] Used the original without changing `init.conf`. This made the N3 and N4 networks separate like the original.

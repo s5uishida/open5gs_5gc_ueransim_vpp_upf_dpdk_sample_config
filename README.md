@@ -70,20 +70,20 @@ The network interfaces of each VM are as follows.
 These devices will be enabled and set IP addresses in the `init.conf` file of VPP-UPF.**
 | VM | Device | Model | Linux Bridge | IP address | Interface | Under DPDK |
 | --- | --- | --- | --- | --- | --- | --- |
-| VM1 | ens18 | VirtIO | vmbr1 | 10.0.0.111/24 | (NAPT NW) | --- |
-| | ens19 | VirtIO | mgbr0 | 192.168.0.111/24 | (Mgmt NW) | --- |
-| | ens20 | VirtIO | vmbr4 | 192.168.14.111/24 | N4 | --- |
-| VM-UP | ens18 | VirtIO | vmbr1 | 10.0.0.151/24 | (NAPT NW) | --- |
-| | ens19 | VirtIO | mgbr0 | 192.168.0.151/24 | (Mgmt NW) | --- |
+| VM1 | ens18 | VirtIO | vmbr1 | 10.0.0.111/24 | (NAPT NW) | -- |
+| | ens19 | VirtIO | mgbr0 | 192.168.0.111/24 | (Mgmt NW) | -- |
+| | ens20 | VirtIO | vmbr4 | 192.168.14.111/24 | N4 | -- |
+| VM-UP | ens18 | VirtIO | vmbr1 | 10.0.0.151/24 | (NAPT NW) | -- |
+| | ens19 | VirtIO | mgbr0 | 192.168.0.151/24 | (Mgmt NW) | -- |
 | | ens20 | VirtIO | vmbr3 | 192.168.13.151/24 | N3 | x |
 | | ens21 | VirtIO | vmbr4 | 192.168.14.151/24 | N4 | x |
 | | ens22 | VirtIO | vmbr6 | 192.168.16.151/24 | N6 | x |
-| VM-DN | ens18 | VirtIO | vmbr1 | 10.0.0.152/24 | (NAPT NW) | --- |
-| | ens19 | VirtIO | mgbr0 | 192.168.0.152/24 | (Mgmt NW) | --- |
+| VM-DN | ens18 | VirtIO | vmbr1 | 10.0.0.152/24 | (NAPT NW) | -- |
+| | ens19 | VirtIO | mgbr0 | 192.168.0.152/24 | (Mgmt NW) | -- |
 | | ens20 | VirtIO | vmbr6 | 192.168.16.152/24 | N6 | --- |
-| VM2 | ens18 | VirtIO | vmbr1 | 10.0.0.131/24 | (NAPT NW) | --- |
-| | ens19 | VirtIO | mgbr0 | 192.168.0.131/24 | (Mgmt NW) | --- |
-| | ens20 | VirtIO | vmbr3 | 192.168.13.131/24 | N3 | --- |
+| VM2 | ens18 | VirtIO | vmbr1 | 10.0.0.131/24 | (NAPT NW) | -- |
+| | ens19 | VirtIO | mgbr0 | 192.168.0.131/24 | (Mgmt NW) | -- |
+| | ens20 | VirtIO | vmbr3 | 192.168.13.131/24 | N3 | -- |
 | VM3 | ens18 | VirtIO | vmbr1 | 10.0.0.132/24 | (NAPT NW) | -- |
 | | ens19 | VirtIO | mgbr0 | 192.168.0.132/24 | (Mgmt NW) | -- |
 

@@ -80,7 +80,7 @@ These devices will be enabled and set IP addresses in the `init.conf` file of VP
 | | ens22 | VirtIO | vmbr6 | 192.168.16.151/24 | N6 | x |
 | VM-DN | ens18 | VirtIO | vmbr1 | 10.0.0.152/24 | (NAPT NW) | -- |
 | | ens19 | VirtIO | mgbr0 | 192.168.0.152/24 | (Mgmt NW) | -- |
-| | ens20 | VirtIO | vmbr6 | 192.168.16.152/24 | N6 | --- |
+| | ens20 | VirtIO | vmbr6 | 192.168.16.152/24 | N6 | -- |
 | VM2 | ens18 | VirtIO | vmbr1 | 10.0.0.131/24 | (NAPT NW) | -- |
 | | ens19 | VirtIO | mgbr0 | 192.168.0.131/24 | (Mgmt NW) | -- |
 | | ens20 | VirtIO | vmbr3 | 192.168.13.131/24 | N3 | -- |

@@ -94,7 +94,7 @@ Linux Bridges of Proxmox VE are as follows.
 | mgbr0 | 192.168.0.0/24 | Mgmt NW |
 | vmbr3 | 192.168.13.0/24 | N3 |
 | vmbr4 | 192.168.14.0/24 | N4 |
-| vmbr6 | 192.168.16.0/24 | N6 |Linux Bridges of Proxmox VE are as follows.
+| vmbr6 | 192.168.16.0/24 | N6 |
 
 Set network instance to `internet`.
 | Network Instance |

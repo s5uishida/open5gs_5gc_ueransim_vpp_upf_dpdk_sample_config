@@ -71,7 +71,7 @@ These devices will be enabled and set IP addresses in the `init.conf` file of UP
 | VM1 | ens18 | VirtIO | vmbr1 | 10.0.0.111/24 | (NAPT NW) | -- |
 | | ens19 | VirtIO | mgbr0 | 192.168.0.111/24 | (Mgmt NW) | -- |
 | | ens20 | VirtIO | vmbr4 | 192.168.14.111/24 | N4 | -- |
-| VM-UP | ens18 | VirtIO | vmbr1 | 10.0.0.151/24 | (NAPT NW) | -- |
+| VM-UP | ~~ens18~~ | ~~VirtIO~~ | ~~vmbr1~~ | ~~10.0.0.151/24~~ | ~~(NAPT NW)~~ ***down*** | -- |
 | | ens19 | VirtIO | mgbr0 | 192.168.0.151/24 | (Mgmt NW) | -- |
 | | ens20 | VirtIO | vmbr3 | 192.168.13.151/24 | N3 | x |
 | | ens21 | VirtIO | vmbr4 | 192.168.14.151/24 | N4 | x |
